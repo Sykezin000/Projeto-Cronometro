@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 200px;
+}
+
+button ,:start {
+
+    text-align: center;
+    margin-top: 30%;
+    margin: 30px;
+    width: 10vw;
+    cursor: pointer;
+    padding: 10px;
+    background-color:red;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    line-height: 30px;
+   
+    
+    
+
+
+}
+
+
+
+#hour {
+
+    font-size: 50px;
+    font-family: "Kode Mono", monospace;
+    color: aliceblue;
+}
+
+
+#minute {
+
+    font-size: 50px;
+    font-family: "Kode Mono", monospace;
+    color: aliceblue;
+}
+
+
+
+
+#second {
+
+    font-size: 50px;
+    font-family: "Kode Mono", monospace;
+    color: aliceblue;
+}
+
+
+
+#millisecond {
+
+    font-size: 50px;
+    font-family: "Kode Mono", monospace;
+    color: aliceblue;
+}
+
+span {
+    font-size: 60px;
+    color: aliceblue;
+
+}
+
+.fundo-preto {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+    margin-top: -500px;
+    margin-left: 0px;
+    background-color:black;
+    padding: 100%;
+}
+
+
+#start , #pause , #reset {
+background-color:dodgerblue;
+
+    
+}
